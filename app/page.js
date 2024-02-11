@@ -4,13 +4,14 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="min-h-screen p-24">
-      <div className="">
+      <div className="relative  mx-auto">
+   
         <div className="relative">
           <h1 className="font-bold text-xl text-center">Play games</h1>
         </div>
 
         <div className="mt-10">
-          <div className="flex gap-5">
+          <div className="flex gap-5 justify-center">
             <div className="card">
               <Link
                 href="https://sliding-own-puzzle.netlify.app/"
