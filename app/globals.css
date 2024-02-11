@@ -31,3 +31,39 @@ body {
     text-wrap: balance;
   }
 }
+.card{
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  border-radius: 2px;
+  overflow: hidden;
+  font-size: 13px;
+  position: relative;
+  width: 160px;
+  height: max-content;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.card img{
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  margin-bottom: 15px;
+}
+.card:hover img{
+  opacity: 0.7;
+}
+.app-title{
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px ;
+  text-align: center;
+  display: block;
+}
+.app-title:hover{
+  text-decoration: underline;
+  color: rgb(14, 14, 247);
+}
