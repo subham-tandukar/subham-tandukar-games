@@ -12,7 +12,11 @@ export default function Home() {
         <div className="mt-10">
           <div className="flex gap-5">
             <div className="card">
-              <Link href="https://subham-tandukar-games.netlify.app/" className="app-title" target="_blank">
+              <Link
+                href="https://sliding-own-puzzle.netlify.app/"
+                className="app-title"
+                target="_blank"
+              >
                 <Image
                   className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                   src="/sliding-puzzle.png"
@@ -25,7 +29,11 @@ export default function Home() {
               </Link>
             </div>
             <div className="card">
-            <Link href="https://subham-tandukar-games.netlify.app/" className="app-title" target="_blank">
+              <Link
+                href="https://subham-tandukar-games.netlify.app/"
+                className="app-title"
+                target="_blank"
+              >
                 <Image
                   className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                   src="/tic-tac-toe.png"
